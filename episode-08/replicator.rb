@@ -8,7 +8,7 @@ class Replicator
 
     # Setup the inside of the replicator. This is where the drink is made.
     @inside_replicator = Location.new
-
+# binding.pry
     # Setup the outside of the replicator. This is where the
     # final drink should end up for the character to consume.
     @plate = Location.new
@@ -44,7 +44,7 @@ class Replicator
     # Setup an instance variable for the recipe
     # so that other methods can see what the recipe is
     @recipe = recipe
-
+# binding.pry
     # This transports a glass from the cupboard to inside the replicator.
     # If this method is successful, it will return the glass that was
     # transported and @inside_replicator will contain the glass
@@ -88,6 +88,7 @@ class Replicator
 
   # This moves the glass from the cupboard to inside the replicator.
   def retrieve_glass
+    # binding.pry
     @enterprise.transporter.energize(
       @enterprise.cupboard.find_glass,
       @enterprise.cupboard.shelf,

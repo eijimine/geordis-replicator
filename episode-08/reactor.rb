@@ -35,6 +35,7 @@ class Reactor
   end
 
   def draw_power(amount = 1)
+    # binding.pry
     amount.times do
       return false if off?
       drain_power

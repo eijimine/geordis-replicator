@@ -114,6 +114,9 @@ class Replicator
       @enterprise.transporter.energize(
         # Geordi is in a jokey mood and
         # reprograms the replicator
+
+# ingredient_name was set to "Banana" changed variable back to ingredient_name
+
         @enterprise.pantry.find_ingredient(ingredient_name),
         @enterprise.pantry.shelf,
         glass_inside_replicator.inside

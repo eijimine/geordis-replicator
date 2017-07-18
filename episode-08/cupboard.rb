@@ -11,6 +11,7 @@ class Cupboard
 
   def shelf
     @shelf
+    # binding.pry
   end
 
   def stock_shelf
@@ -22,6 +23,7 @@ class Cupboard
   def find_glass
     @shelf.contents.find do |obj|
       obj.class == Glass
+      # binding.pry
     end
   end
 
