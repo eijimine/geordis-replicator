@@ -1,0 +1,54 @@
+=> [32m#<Enterprise:0x00559d645610b0[0m
+ @cupboard[32m=[0m
+  [32m#<Cupboard:0x00559d64560ef8[0m
+   @shelf[32m=[0m
+    [32m#<Location:0x00559d64560ed0[0m
+     @contents[32m=[0m
+      [[32m#<Glass:0x00559d64560d18[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x00559d64560cf0[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+       [32m#<Glass:0x00559d64560c28[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x00559d64560c00[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+       [32m#<Glass:0x00559d64560a70[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x00559d64560a20[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+       [32m#<Glass:0x00559d64560930[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x00559d64560840[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m][32m>[0m[32m>[0m,
+ @pantry[32m=[0m
+  [32m#<Pantry:0x00559d64560728[0m
+   @shelf[32m=[0m
+    [32m#<Location:0x00559d64560660[0m
+     @contents[32m=[0m
+      [[32m#<Ingredient:0x00559d6433fac0[0m @name[32m=[0m[31m[1;31m"[0m[31mBlood[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433fa70[0m @name[32m=[0m[31m[1;31m"[0m[31mBlood[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433fa20[0m @name[32m=[0m[31m[1;31m"[0m[31mBlood[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f980[0m @name[32m=[0m[31m[1;31m"[0m[31msugar[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f958[0m @name[32m=[0m[31m[1;31m"[0m[31msugar[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f930[0m @name[32m=[0m[31m[1;31m"[0m[31msugar[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f8e0[0m @name[32m=[0m[31m[1;31m"[0m[31myeast[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f818[0m @name[32m=[0m[31m[1;31m"[0m[31myeast[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f7f0[0m @name[32m=[0m[31m[1;31m"[0m[31myeast[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f6b0[0m @name[32m=[0m[31m[1;31m"[0m[31mapple[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f688[0m @name[32m=[0m[31m[1;31m"[0m[31mapple[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f548[0m @name[32m=[0m[31m[1;31m"[0m[31mapple[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f520[0m @name[32m=[0m[31m[1;31m"[0m[31morange[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f4f8[0m @name[32m=[0m[31m[1;31m"[0m[31morange[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x00559d6433f480[0m @name[32m=[0m[31m[1;31m"[0m[31morange[1;31m"[0m[31m[0m[32m>[0m][32m>[0m[32m>[0m,
+ @reactor[32m=[0m[32m#<Reactor:0x00559d64561088[0m @core[32m=[0m[32m#<Location:0x00559d64560fc0[0m @contents[32m=[0m[][32m>[0m, @dilithium_crystals[32m=[0m[1;34m88[0m, @enterprise[32m=[0m[32m#<Enterprise:0x00559d645610b0[0m ...[32m>[0m, @on[32m=[0m[1;36mtrue[0m[32m>[0m,
+ @replicator[32m=[0m
+  [32m#<Replicator:0x00559d6433f458[0m
+   @enterprise[32m=[0m[32m#<Enterprise:0x00559d645610b0[0m ...[32m>[0m,
+   @glass[32m=[0m
+    [32m#<Glass:0x00559d64560e58[0m
+     @errors[32m=[0m[],
+     @inside[32m=[0m
+      [32m#<Location:0x00559d64560e30[0m
+       @contents[32m=[0m[[32m#<Ingredient:0x00559d6433f778[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x00559d6433f728[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x00559d6433f700[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+     @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+   @inside_replicator[32m=[0m
+    [32m#<Location:0x00559d6433f430[0m
+     @contents[32m=[0m
+      [[32m#<Glass:0x00559d64560e58[0m
+        @errors[32m=[0m[],
+        @inside[32m=[0m
+         [32m#<Location:0x00559d64560e30[0m
+          @contents[32m=[0m[[32m#<Ingredient:0x00559d6433f778[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x00559d6433f728[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x00559d6433f700[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+        @temperature[32m=[0m[1;34m37[0m[32m>[0m][32m>[0m,
+   @plate[32m=[0m[32m#<Location:0x00559d6433f368[0m @contents[32m=[0m[][32m>[0m,
+   @power[32m=[0m[1;36mtrue[0m,
+   @recipe[32m=[0m[32m#<Recipe:0x00559d645612e0[0m @ingredients[32m=[0m[[31m[1;31m"[0m[31mBlood[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31msugar[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31myeast[1;31m"[0m[31m[0m], @name[32m=[0m[31m[1;31m"[0m[31mBloodwine[1;31m"[0m[31m[0m, @temperature[32m=[0m[1;34m80[0m[32m>[0m[32m>[0m,
+ @transporter[32m=[0m[32m#<Transporter:0x00559d64560f20[0m @enterprise[32m=[0m[32m#<Enterprise:0x00559d645610b0[0m ...[32m>[0m, @power[32m=[0m[1;36mtrue[0m[32m>[0m[32m>[0m
