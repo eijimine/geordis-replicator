@@ -50,7 +50,7 @@ class Replicator
     # transported and @inside_replicator will contain the glass
     # in its contents.
     retrieve_glass
-
+# binding.pry
     # Setup an instance variable to access the glass.
     @glass = @inside_replicator.contents.first
 
@@ -104,13 +104,13 @@ class Replicator
 
   # This transports ingredients into the glass.
   def transport_ingredients_to_glass
-
     # Abort if there is no glass inside the replicator.
     return unless glass_inside_replicator
 
     # Go through recipe and transport each ingredient
     # from pantry to glass, one by one.
     @recipe.ingredients.each do |ingredient_name|
+      # binding.pry
       @enterprise.transporter.energize(
         @enterprise.pantry.find_ingredient(ingredient_name),
         @enterprise.pantry.shelf,
@@ -121,7 +121,7 @@ class Replicator
 
   # This mixes the ingredients around inside the replicator.
   def mix
-
+# binding.pry
     # Abort if there is no glass inside the replicator.
     return unless glass_inside_replicator
 
