@@ -1,0 +1,56 @@
+=> [32m#<Enterprise:0x005565f75d15d0[0m
+ @cupboard[32m=[0m
+  [32m#<Cupboard:0x005565f75d14b8[0m
+   @shelf[32m=[0m
+    [32m#<Location:0x005565f75d1490[0m
+     @contents[32m=[0m
+      [[32m#<Glass:0x005565f75d1300[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x005565f75d12d8[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+       [32m#<Glass:0x005565f75d1260[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x005565f75d1238[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+       [32m#<Glass:0x005565f75d1198[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x005565f75d1148[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+       [32m#<Glass:0x005565f75d10d0[0m @errors[32m=[0m[], @inside[32m=[0m[32m#<Location:0x005565f75d1080[0m @contents[32m=[0m[][32m>[0m, @temperature[32m=[0m[1;34m37[0m[32m>[0m][32m>[0m[32m>[0m,
+ @pantry[32m=[0m
+  [32m#<Pantry:0x005565f75d0f90[0m
+   @shelf[32m=[0m
+    [32m#<Location:0x005565f75d0f40[0m
+     @contents[32m=[0m
+      [[32m#<Ingredient:0x005565f73b9018[0m @name[32m=[0m[31m[1;31m"[0m[31mBlue Curacao[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8ff0[0m @name[32m=[0m[31m[1;31m"[0m[31mBlue Curacao[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8f50[0m @name[32m=[0m[31m[1;31m"[0m[31mBlack Death vodka[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8ed8[0m @name[32m=[0m[31m[1;31m"[0m[31mBlack Death vodka[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8d48[0m @name[32m=[0m[31m[1;31m"[0m[31mGinfire[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8cf8[0m @name[32m=[0m[31m[1;31m"[0m[31mGinfire[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8c80[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8c58[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8a50[0m @name[32m=[0m[31m[1;31m"[0m[31mbanana[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8938[0m @name[32m=[0m[31m[1;31m"[0m[31mapple[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8910[0m @name[32m=[0m[31m[1;31m"[0m[31mapple[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8898[0m @name[32m=[0m[31m[1;31m"[0m[31mapple[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b8820[0m @name[32m=[0m[31m[1;31m"[0m[31morange[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73bb700[0m @name[32m=[0m[31m[1;31m"[0m[31morange[1;31m"[0m[31m[0m[32m>[0m,
+       [32m#<Ingredient:0x005565f73b86b8[0m @name[32m=[0m[31m[1;31m"[0m[31morange[1;31m"[0m[31m[0m[32m>[0m][32m>[0m[32m>[0m,
+ @reactor[32m=[0m[32m#<Reactor:0x005565f75d15a8[0m @core[32m=[0m[32m#<Location:0x005565f75d1580[0m @contents[32m=[0m[][32m>[0m, @dilithium_crystals[32m=[0m[1;34m88[0m, @enterprise[32m=[0m[32m#<Enterprise:0x005565f75d15d0[0m ...[32m>[0m, @on[32m=[0m[1;36mtrue[0m[32m>[0m,
+ @replicator[32m=[0m
+  [32m#<Replicator:0x005565f73b9798[0m
+   @enterprise[32m=[0m[32m#<Enterprise:0x005565f75d15d0[0m ...[32m>[0m,
+   @glass[32m=[0m
+    [32m#<Glass:0x005565f75d1440[0m
+     @errors[32m=[0m[],
+     @inside[32m=[0m
+      [32m#<Location:0x005565f75d1418[0m
+       @contents[32m=[0m
+        [[32m#<Ingredient:0x005565f73b9040[0m @name[32m=[0m[31m[1;31m"[0m[31mBlue Curacao[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x005565f73b8f78[0m @name[32m=[0m[31m[1;31m"[0m[31mBlack Death vodka[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x005565f73b8e60[0m @name[32m=[0m[31m[1;31m"[0m[31mGinfire[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+     @temperature[32m=[0m[1;34m37[0m[32m>[0m,
+   @inside_replicator[32m=[0m
+    [32m#<Location:0x005565f73bb458[0m
+     @contents[32m=[0m
+      [[32m#<Glass:0x005565f75d1440[0m
+        @errors[32m=[0m[],
+        @inside[32m=[0m
+         [32m#<Location:0x005565f75d1418[0m
+          @contents[32m=[0m
+           [[32m#<Ingredient:0x005565f73b9040[0m @name[32m=[0m[31m[1;31m"[0m[31mBlue Curacao[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x005565f73b8f78[0m @name[32m=[0m[31m[1;31m"[0m[31mBlack Death vodka[1;31m"[0m[31m[0m[32m>[0m, [32m#<Ingredient:0x005565f73b8e60[0m @name[32m=[0m[31m[1;31m"[0m[31mGinfire[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+        @temperature[32m=[0m[1;34m37[0m[32m>[0m][32m>[0m,
+   @plate[32m=[0m[32m#<Location:0x005565f73b3f50[0m @contents[32m=[0m[][32m>[0m,
+   @power[32m=[0m[1;36mtrue[0m,
+   @recipe[32m=[0m[32m#<Recipe:0x005565f75d17d8[0m @ingredients[32m=[0m[[31m[1;31m"[0m[31mBlue Curacao[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mBlack Death vodka[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mGinfire[1;31m"[0m[31m[0m], @name[32m=[0m[31m[1;31m"[0m[31mRomulan Ale [1;31m"[0m[31m[0m, @temperature[32m=[0m[1;34m70[0m[32m>[0m[32m>[0m,
+ @transporter[32m=[0m[32m#<Transporter:0x005565f75d14e0[0m @enterprise[32m=[0m[32m#<Enterprise:0x005565f75d15d0[0m ...[32m>[0m, @power[32m=[0m[1;36mtrue[0m[32m>[0m[32m>[0m
