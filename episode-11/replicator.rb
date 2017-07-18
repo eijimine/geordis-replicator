@@ -44,7 +44,6 @@ class Replicator
     # Setup an instance variable for the recipe
     # so that other methods can see what the recipe is
     @recipe = recipe
-
     # This transports a glass from the cupboard to inside the replicator.
     # If this method is successful, it will return the glass that was
     # transported and @inside_replicator will contain the glass
@@ -64,6 +63,7 @@ class Replicator
     #   glass_inside_replicator
     # And then to see what's inside the glass, use:
     #   glass_inside_replicator.inside.contents
+    # binding.pry
     transport_ingredients_to_glass
 
     # This methods mixes the ingredients in the glass around.
@@ -143,7 +143,6 @@ class Replicator
     # and @inside_replicator will no longer contain the glass.
     transport_glass_to_reactor
 
-
     # Setup variables for temperature adjustment loop
     desired_temperature         = @recipe.temperature
     maximum_adjustments_allowed = 70
@@ -153,6 +152,7 @@ class Replicator
     # or too many attempts have been made to adjust temperature.
     # If successful, @glass will be set to the proper
     # recipe temperature after the loop has finished.
+    # binding.pry
     while @glass.temperature != desired_temperature &&
           number_of_adjustments <= maximum_adjustments_allowed
 

@@ -66,10 +66,13 @@ class Reactor
     @core.contents.each do |item|
       item.temperature += 1 if draw_power
     end
-    @core.contents.first.inside.contents =
-      [ Ingredient.new('potato'),
-        Ingredient.new('leeks'),
-        Ingredient.new('broth') ]
+
+#Heating items in core causes ingredients to be replced by bad ingredients
+
+  #   @core.contents.first.inside.contents =
+  #     [ Ingredient.new('potato'),
+  #       Ingredient.new('leeks'),
+  #       Ingredient.new('broth') ]
   end
 
   def cool_items_in_core
