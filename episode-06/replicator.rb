@@ -40,7 +40,6 @@ class Replicator
   # and then manually execute each method to ensure
   # it returns what's expect.
   def replicate(recipe)
-
     # Setup an instance variable for the recipe
     # so that other methods can see what the recipe is
     @recipe = recipe
@@ -50,6 +49,7 @@ class Replicator
     # transported and @inside_replicator will contain the glass
     # in its contents.
     retrieve_glass
+    # binding.pry
 
     # Setup an instance variable to access the glass.
     @glass = @inside_replicator.contents.first
