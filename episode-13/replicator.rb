@@ -40,7 +40,7 @@ class Replicator
   # and then manually execute each method to ensure
   # it returns what's expect.
   def replicate(recipe)
-
+# binding.pry
     # Setup an instance variable for the recipe
     # so that other methods can see what the recipe is
     @recipe = recipe
@@ -49,11 +49,11 @@ class Replicator
     # If this method is successful, it will return the glass that was
     # transported and @inside_replicator will contain the glass
     # in its contents.
+    # binding.pry
     retrieve_glass
 
     # Setup an instance variable to access the glass.
     @glass = @inside_replicator.contents.first
-
     # Transport each ingredient the recipe calls for
     # from the pantry to the glass.
     # If this method is successful, it should return
@@ -64,6 +64,7 @@ class Replicator
     #   glass_inside_replicator
     # And then to see what's inside the glass, use:
     #   glass_inside_replicator.inside.contents
+    # binding.pry
     transport_ingredients_to_glass
 
     # This methods mixes the ingredients in the glass around.
@@ -76,8 +77,10 @@ class Replicator
     # This method adjusts the temperature of the contents in the glass.
     # If you read back `glass.temperature`, then it should be set
     # to the temperature the recipe calls for if this method executed properly.
+# binding.pry
     adjust_temperature
 
+    # binding.pry
     # This method moves the glass from @inside_replicator to @plate
     # so that the character can pick it up and drink it.
     # If it's successful, glass_inside_replicator should be nil
@@ -104,7 +107,6 @@ class Replicator
 
   # This transports ingredients into the glass.
   def transport_ingredients_to_glass
-
     # Abort if there is no glass inside the replicator.
     return unless glass_inside_replicator
 
@@ -117,6 +119,7 @@ class Replicator
         glass_inside_replicator.inside
       )
     end
+    # binding.pry
   end
 
   # This mixes the ingredients around inside the replicator.
@@ -136,8 +139,9 @@ class Replicator
   def adjust_temperature
 
     # Abort if there is no glass inside the replicator.
-    return unless glass_inside_replicator
+      return unless glass_inside_replicator
 
+      # binding.pry
     # Transport glass to the reactor where the temperature adjustment will take place.
     # If successful, @enterprise.reactor.core will now contain the glass
     # and @inside_replicator will no longer contain the glass.
@@ -148,7 +152,7 @@ class Replicator
     desired_temperature         = @recipe.temperature
     maximum_adjustments_allowed = 50
     number_of_adjustments       = 0
-
+# binding.pry
     # Keep adjusting temperature until desired temperature is reached
     # or too many attempts have been made to adjust temperature.
     # If successful, @glass will be set to the proper
@@ -169,8 +173,7 @@ class Replicator
     # Transport glass from reactor back to inside the replicator.
     # If successful, @enterprise.reactor.core will now be empty
     # and @inside_replicator will once again contain the glass.
-    # transport_glass_from_reactor
-
+    transport_glass_from_reactor
   end
 
   def transport_glass_to_reactor
@@ -190,6 +193,7 @@ class Replicator
   end
 
   def transport_glass_to_replicator_plate
+    # binding.pry
     @enterprise.transporter.energize(
       glass_inside_replicator,
       @inside_replicator,
