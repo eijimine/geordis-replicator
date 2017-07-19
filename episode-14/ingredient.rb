@@ -12,7 +12,10 @@ class Ingredient
   end
 
   def initialize(name)
-    @name = 'cherry'
+
+# ingredient name was set to 'cherry' changed back to match name
+
+    @name = name
   end
 
   def name
