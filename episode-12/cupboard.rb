@@ -20,7 +20,11 @@ class Cupboard
   end
 
   def find_glass
-    @shelf.contents.find { |obj| obj.class == Ingredient }
+    # binding.pry
+
+# obj.class was "== ingredients" when it should be Glass
+
+    @shelf.contents.find { |obj| obj.class == Glass }
   end
 
 end

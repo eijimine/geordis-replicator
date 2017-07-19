@@ -44,7 +44,7 @@ class Replicator
     # Setup an instance variable for the recipe
     # so that other methods can see what the recipe is
     @recipe = recipe
-
+# binding.pry
     # This transports a glass from the cupboard to inside the replicator.
     # If this method is successful, it will return the glass that was
     # transported and @inside_replicator will contain the glass
@@ -93,6 +93,7 @@ class Replicator
       @enterprise.cupboard.shelf,
       @inside_replicator
     )
+    # binding.pry
   end
 
   def glass_inside_replicator
